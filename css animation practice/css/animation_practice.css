@@ -1,0 +1,147 @@
+/* this is where all of your CSS styles go */
+
+html,body {
+	width: 100%;
+	height: 100%;
+}
+
+.container {
+	display: inline-block;
+	height: 100px;
+	position: relative;
+	left: 32%;
+	top: 30%;
+}
+
+.s1{
+	float: left;
+	font-family: 'Sigmar One', cursive;
+	font-size: 5em;
+	position: absolute;
+	animation: s1_move .5s linear;
+	animation-fill-mode: forwards;
+	animation-delay: 2s;
+	z-index: 10
+}
+
+.t{
+	float: left;
+	font-family: 'Sigmar One', cursive;
+	font-size: 5em;
+	position: absolute;
+	left: 55px;
+	animation: t_move .5s linear;
+	animation-fill-mode: forwards;
+	animation-delay: 4s;
+}
+
+.r{
+	float: left;
+	font-family: 'Sigmar One', cursive;
+	font-size: 5em;
+	position: absolute;
+	left: 110px;
+	animation: r_move .5s linear;
+	animation-fill-mode: forwards;
+	animation-delay: 3.5s;
+	z-index: 9
+}
+
+.e1{
+	float: left;
+	font-family: 'Sigmar One', cursive;
+	font-size: 5em;
+	position: absolute;
+	left: 175px;
+	animation: e1_move .5s linear;
+	animation-fill-mode: forwards;
+	animation-delay: 1.5s;
+}
+
+.s2{
+	float: left;
+	font-family: 'Sigmar One', cursive;
+	font-size: 5em;
+	position: absolute;
+	left: 230px;
+	animation: s2_move .5s linear;
+	animation-fill-mode: forwards;
+	animation-delay: 2.5s;
+}
+
+.s3{
+	float: left;
+	font-family: 'Sigmar One', cursive;
+	font-size: 5em;
+	position: absolute;
+	left: 285px;
+	animation: s3_move .5s linear;
+	animation-fill-mode: forwards;
+	animation-delay: 4.5s;
+}
+
+.e2{
+	float: left;
+	font-family: 'Sigmar One', cursive;
+	font-size: 5em;
+	position: absolute;
+	left: 343px;
+	animation: e2_move .5s linear;
+	animation-fill-mode: forwards;
+	animation-delay: 3s;
+}
+
+.d{
+	float: left;
+	font-family: 'Sigmar One', cursive;
+	font-size: 5em;
+	position: absolute;
+	left: 395px;
+	animation: d_move .5s linear;
+	animation-fill-mode: forwards;
+	animation-delay: 1s;
+	z-index: 11
+}
+
+
+@keyframes s1_move{
+	0%{color: black; left: 0px }
+	100%{color: blue; left: 108px }
+}
+
+@keyframes t_move{
+	0%{color: black; left: 55px}
+	100%{color: purple; left: 336px}
+}
+
+@keyframes r_move{
+	0%{color: black; left: 110px}
+	100%{color: blue; left: 271px}
+}
+
+@keyframes e1_move{
+	0%{color: black; left: 175px}
+	100%{color: pink; left: 53px}
+}
+
+@keyframes s2_move{
+	0%{color: black; left: 230px }
+	100%{color: purple; left: 162px }
+}
+
+@keyframes s3_move{
+	0%{color: black; left: 285px}
+	100%{color: pink; left: 394px}
+}
+
+@keyframes e2_move{
+	0%{color: black; left: 343px}
+	100%{color: pink; left: 218px}
+}
+
+@keyframes d_move{
+	0%{color: black; left: 395px;}
+	100%{color: purple; left: -12px;}
+}
+
+
